@@ -4,7 +4,6 @@ import { motion, stagger, useAnimate } from "framer-motion";
 import { ChallengesContext } from "../store/challenges-context.jsx";
 import Modal from "./Modal.jsx";
 import images from "../assets/images.js";
-import { duration } from "@mui/material";
 
 export default function NewChallenge({ onDone }) {
   const title = useRef();
